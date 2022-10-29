@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typing Game 2</title>
+        <link rel="stylesheet" href="./style2.css">
+    </head>
+    <body>
+        <h1 id="titulo">Mi juego de escritura rápida</h1>
+        <p class="txtinicio">Practique su habilidad de escritura en inglés con líricas de Taylor Swift :D</p>
+        <div id="elecciondif">
+            <h1>Introduzca la dificultad que desea, del 1 al 5, siendo 1 muy fácil y 5 muy difícil</h1>
+            <input type="number" id="dificultad"/>
+            <button type="button" id="introdif">Introducir</button>
+        </div>
+        <div id="diferror">
+            <h2>Elija una dificultad del 1 al 5, por favor.</h2>
+        </div> 
+        <div id="juego">
+            <h3>¡Dale al botón para iniciar con una frase!</h3>
+            <p id="frase"></p> <!--lo que hay que escribir-->
+            <p id="message"></p> <!-- pa los mensajes del juego-->
+            <div>
+                <input type="text" aria-label="palabra actual" id="texto-tipeado"/> <!--la textbox del juego-->
+                <button type="button" id="inicio">¡Probemos!</button><!--botón de inicio del juego-->
+            </div>
+        </div>
+        <script src="script2.js"></script>
+    </body>  
+</html>
